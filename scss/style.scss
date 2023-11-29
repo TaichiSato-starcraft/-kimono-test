@@ -1,22 +1,22 @@
 //style.scss
 
 // Foundation
-@use 'Foundation/_reset.scss';
-@use 'Foundation/_mixin.scss';
-@use 'Foundation/_base.scss';
+@use 'Foundation/_f-reset.scss';
+@use 'Foundation/_f-mixin.scss';
+@use 'Foundation/_f-base.scss';
 
 // Layout
-@use 'Layout/_footer.scss';
-@use 'Layout/_header.scss';
+@use 'Layout/_l-footer.scss';
+@use 'Layout/_l-header.scss';
 
 // object
 // -Component
-@use 'Object/Component/_btn.scss';
-@use 'Object/Component/_inner.scss';
-@use 'Object/Component/_table-hikaku.scss';
+@use 'Object/Component/_c-btn.scss';
+@use 'Object/Component/_c-inner.scss';
+@use 'Object/Component/_c-table-hikaku.scss';
 // -Project
-@use 'Object/Project/_about.scss';
-@use 'Object/Project/_search.scss';
+@use 'Object/Project/_p-about.scss';
+@use 'Object/Project/_p-search.scss';
 // -Utility
-@use 'Object/Utility/_color.scss';
-@use 'Object/Utility/_font.scss';
+@use 'Object/Utility/_u-color.scss';
+@use 'Object/Utility/_u-font.scss';
