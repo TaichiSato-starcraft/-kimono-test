@@ -11,12 +11,12 @@
 
 // object
 // -Component
-@use 'Component/_btn.scss';
-@use 'Component/_inner.scss';
-@use 'Component/_table-hikaku.scss';
+@use 'Object/Component/_btn.scss';
+@use 'Object/Component/_inner.scss';
+@use 'Object/Component/_table-hikaku.scss';
 // -Project
-@use 'Project/_about.scss';
-@use 'Project/_search.scss';
+@use 'Object/Project/_about.scss';
+@use 'Object/Project/_search.scss';
 // -Utility
-@use 'Utility/_color.scss';
-@use 'Utility/_font.scss';
+@use 'Object/Utility/_color.scss';
+@use 'Object/Utility/_font.scss';
