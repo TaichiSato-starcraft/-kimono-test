@@ -1,4 +1,4 @@
-@import "../../Foundation/_f-mixin.scss";
+@import "../../Foundation/_mixin.scss";
 
 .block-content {
     background-color: #fff;
@@ -233,16 +233,6 @@
         @include mobile{
             height: 1rem;
         }
-    }
-}
-
-.block-button__icon {
-    margin: 0 auto;
-    margin-top: -7px;
-    margin-bottom: -10px;
-
-    img {
-        height: 10px;
     }
 }
 

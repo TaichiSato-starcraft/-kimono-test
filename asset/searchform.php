@@ -3,8 +3,8 @@
         <span class="search-icon"><img src="<?php bloginfo('template_url'); ?>/image/search.png" alt=""></span>着物買取店検索
     </h2>
 </div>
-<div class="block-search__wrapper">
-    <div class="block-content">
+<div class="p-search__wrapper">
+    <div class="p-block-content">
         <div class="block-search">
             <form role="search" action="<?php echo home_url('/'); ?>" class="search-form" method="get">
             <input type="hidden" name="s">
@@ -54,8 +54,8 @@
                         </tr>
                     </tbody>
                 </table>
-                <button class="block-button" type="submit">
-                    <div class="block-button__item">
+                <button class="c-block-button" type="submit">
+                    <div class="c-block-button__item">
                         <h2 class="mid-txt">この条件で検索</h2>
                     </div>
                 </button>

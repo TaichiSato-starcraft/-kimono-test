@@ -1,11 +1,11 @@
-.block-footer{
+.l-block-footer{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 60px;
     background-color: #f1eeee;
-    .block-footer__link{
+    &__link{
       padding: 0px 10px;
       .footer-link{
         color: #4d4d4d;

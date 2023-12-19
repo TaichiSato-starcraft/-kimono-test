@@ -1,15 +1,14 @@
 
  <!-- 検索結果のランキングを記述 -->
- <div class="block-content">
-  <div class="search_wrapper">
-    <h1 class="search_job-title">
+ <div class="p-block-content">
+  <div class="p-search_wrapper">
+    <h1 class="p-search_job-title">
       <?php the_title(); ?>
     </h1>
-      <div class="img-description_wrapper">
-        <div class="img-description_flex">
+        <div class="p-search-img_description">
         <?php if ($store_logo) : ?>
-          <div class="hikaku-image__wrapper">
-            <img class="logo-image" src="<?php echo $store_logo; ?>" alt="">
+          <div class="p-store-logo__wrapper">
+            <img class="p-store_logo" src="<?php echo $store_logo; ?>" alt="">
           </div>
         <?php endif; ?>
           <div>
@@ -18,8 +17,7 @@
             </p>
           </div>
         </div>
-      </div>
-      <table class="search-table">
+      <table class="p-search_table">
         <tbody>
           <tr>
             <th>着物専門</th>

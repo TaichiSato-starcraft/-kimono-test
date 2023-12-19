@@ -79,7 +79,7 @@ $get_num = $the_query->post_count;
 <div style="height:2px;"></div>
 <?php get_search_form(); ?>
 <div class="content__white_wrapper">
-  <div class="search_wrapper">
+  <div class="p-search_wrapper">
   <p><span>検索結果</span><span class="c-result__text"><?php echo $get_num; ?>件</span></p>
     <section>
       <?php if(!empty($senmon_f)):?>

@@ -34,5 +34,8 @@
 <body class="body">
     <div class="article">
         <div class="container">
-        <div class="header-cover"><a href="<?php echo esc_url(home_url('/')); ?>"><h2 class="mid-text">買取王国</h2></a></div>
+        <div class="l-header_cover"><a href="<?php echo esc_url(home_url('/')); ?>"><h2 class="mid-text">買取王国</h2></a></div>
         <main class="block-sections">
+        <header class="l-block-header_image">
+            <img src="https://xn--tor46et59ao6w.com/wp-content/themes/kaitori/img/fv/kaitori-fv-new-sp-4.jpg"alt="">
+        </header>
