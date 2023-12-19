@@ -31,11 +31,10 @@
     <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox.min.js"></script>
 </head>
-<body class="body">
-    <div class="article">
-        <div class="container">
+<body>
+    <div class="l-article">
         <div class="l-header_cover"><a href="<?php echo esc_url(home_url('/')); ?>"><h2 class="mid-text">買取王国</h2></a></div>
-        <main class="block-sections">
+        <main class="l-block-sections">
         <header class="l-block-header_image">
             <img src="https://xn--tor46et59ao6w.com/wp-content/themes/kaitori/img/fv/kaitori-fv-new-sp-4.jpg"alt="">
         </header>

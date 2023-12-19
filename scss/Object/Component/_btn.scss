@@ -3,23 +3,6 @@
 .c-block-button {
   margin: 0 auto;
   height: fit-content;
-  &__item {
-    background-color: #D04C67;
-    padding: 0.75rem 1.5rem;
-    width: -moz-fit-content;
-    width: fit-content;
-    border-radius: 1.5rem;
-    border-bottom: 4px solid #780018;
-  }
-  &__item:hover{
-    opacity: 0.7;
-    border-bottom: 0px;
-    border-top: 4px solid transparent;
-    transform: translateY(4px);
-    h2{
-      transform: translateY(-2px);
-    }
-  }
   &__icon {
     margin: 0 auto;
     margin-top: -7px;
@@ -28,30 +11,84 @@
         height: 10px;
     }
   }
-}
-.c-koushiki-site__btn_wrapper{
-  .c-koushiki-site__btn_block {
-    width: 100%;
-    background-color: #d04c67;
+  &__item {
+    background-color: #D04C67;
+    padding: 1rem 2.5rem;
+    width: fit-content;
     border-radius: 40px;
-    padding: 1rem;
-    display: flex;
-    justify-content: center;
     border-bottom: 4px solid #780018;
-    &:hover {
+    margin: 0 auto;
+    &:hover{
       opacity: 0.7;
       border-bottom: 0px;
       border-top: 4px solid transparent;
       transform: translateY(4px);
-      h2 {
-          transform: translateY(-2px);
+      h2{
+        transform: translateY(-2px);
       }
     }
-    @include mobile{
-        width: 45vw;
+  }
+  &__item--flex-column {
+    background-color: #D04C67;
+    padding: 1rem 2.5rem;
+    width: fit-content;
+    border-radius: 40px;
+    border-bottom: 4px solid #780018;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    &:hover{
+      opacity: 0.7;
+      border-bottom: 0px;
+      border-top: 4px solid transparent;
+      transform: translateY(4px);
+      h2{
+        transform: translateY(-2px);
+      }
     }
   }
+  &__item--width100 {
+    @extend .c-block-button__item;
+    padding: 1rem;
+    width: 100%;
+    @include mobile {
+      padding: 0.5rem;
+    }
+    &:hover{
+      opacity: 0.7;
+      border-bottom: 0px;
+      border-top: 4px solid transparent;
+      transform: translateY(4px);
+      h2{
+        transform: translateY(-2px);
+      }
+    }
+  }
+  
 }
+// .c-koushiki-site-btn{
+//   &__block {
+//     width: 100%;
+//     background-color: #d04c67;
+//     border-radius: 40px;
+//     padding: 1rem;
+//     display: flex;
+//     justify-content: center;
+//     border-bottom: 4px solid #780018;
+//     @include mobile {
+//       padding: 0.5rem;
+//     }
+//     &:hover {
+//       opacity: 0.7;
+//       border-bottom: 0px;
+//       border-top: 4px solid transparent;
+//       transform: translateY(4px);
+//       h2 {
+//           transform: translateY(-2px);
+//       }
+//     }
+//   }
+// }
 
 
 //   .block-button:hover{

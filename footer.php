@@ -1,6 +1,5 @@
 
 </main>
-        </div>
     </div>
 <footer class="l-block-footer">
         <div class="l-block-footer__link">

@@ -4,6 +4,8 @@
 body {
     font-size: 17px;
     scroll-behavior: smooth;
+    background-color: rgb(255, 250, 250);
+    background-image: url("./image/japanese-paper_pink.jpg");
     font-family: 'Noto Sans JP', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳＰゴシック', 'MS PGothic', sans-serif;
     @include mobile{
       font-size: 13px;
@@ -24,11 +26,15 @@ main {
 a{
   text-decoration:none;
   color: #668ad8;
-}
+  display: inline-block;
+  }
 p{
   font-size: 1.2rem;
   @include mobile{
     font-size: 0.9rem;
+      &.mid-txt {
+          font-size: 0.8rem;
+      }
   }
 }
 button {

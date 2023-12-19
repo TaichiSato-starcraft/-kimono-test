@@ -11,7 +11,7 @@
             <img class="p-store_logo" src="<?php echo $store_logo; ?>" alt="">
           </div>
         <?php endif; ?>
-          <div>
+          <div class="p-description">
             <p>
               <?php echo $ranking_description;?>
             </p>

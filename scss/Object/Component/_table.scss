@@ -1,0 +1,168 @@
+@import "../../Foundation/_mixin.scss";
+
+.c-block-table {
+    display: block;
+    width: 100%;
+    overflow-x: scroll;
+    &__inner {
+        border: 1px solid #ffffff;
+        border-collapse: collapse;
+        width: 200%;
+        @include mobile{
+            width: 450%;
+        }
+        tbody {
+            th {
+                border: 1px solid #f1eeee;
+                border-collapse: collapse;
+                padding: 20px 5px;
+                height: 5vh;
+                background: #d04c67;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                @include mobile{
+                    padding: 2vw 0px;
+                }
+            }
+            td {
+                border: 1px solid #f1eeee;
+                border-collapse: collapse;
+                padding: 5px;
+                height: 5vh;
+                display: table-cell;
+                text-align: center;
+                vertical-align: middle;
+                background-color: #ffffff;
+                @include mobile{
+                    min-width: 30vw;
+                }
+                &.first-cell {
+                    background-color: #ffe8e8;
+                    padding: 0px;
+                    min-width: 5rem;
+                    @include mobile{
+                        min-width: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+.c-hikaku-image__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo-image {
+        width: 10rem;
+        @include mobile{
+            width: 8rem;
+        }
+    }
+    .cam-image {
+        width: 10rem;
+        @include mobile{
+            width: 7rem;
+        }
+    }
+    &--first {
+        img{
+            width: 65%;
+            margin: 0 auto;
+            @include mobile{
+                width: 75%;
+            }
+        }
+    }
+}
+.c-kigou-text__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.c-block-table__link {
+    display: flex;
+    justify-content: center;
+    a {
+        color: #668ad8;
+    }
+}
+
+.c-mini-table {
+    @include mobile{
+        display: block;
+        width: 100%;
+        overflow-x: scroll;
+    }
+    &__detail {
+        min-height: 6rem;
+        text-align: left;
+        padding: 5px;
+    }
+    &__company {
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &--image {
+            display: flex;
+            justify-content: center;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    table {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        @include mobile{
+            width: 200%;
+        }
+        tbody {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            width: 100%;
+            gap: 0px;
+            tr {
+                width: 100%;
+                th {
+                    background-color: #cacaca;
+                    border: rgba(0, 0, 0, 0) 1px solid;
+                    border-radius: 15px 15px 0 0;
+                    font-size: 2vh;
+                    width: 33.3vw;
+                    height: 5vh;
+                    display: table-cell;
+                    vertical-align: middle;
+                    @include mobile{
+                        width: 66.6vw;
+                    }
+                    img {
+                        height: 5vh;
+                        @include mobile{
+                            height: 8vh;
+                        }
+                    }
+                }
+                td {
+                    width: 33.3vw;
+                    display: table-cell;
+                    text-align: center;
+                    font-size: 0.9em;
+                    line-height: 1.5;
+                    vertical-align: baseline;
+                    padding: 4px;
+                    background-color: #ffffff;
+                    @include mobile{
+                        width: 66.6vw;
+                    }
+                }
+            }
+        }
+    }
+}

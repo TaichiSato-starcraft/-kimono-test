@@ -4,7 +4,7 @@
 
 <div class="c-block-button">
 <a href="#1">
-    <div class="c-block-button__item flex-column">
+    <div class="c-block-button__item--flex-column">
         <h2 class="mid-txt">さっそくNo.1の着物をチェック</h2><span class="c-block-button__icon"><img src="<?php bloginfo('template_url'); ?>/image/Polygon 1.png" alt=""></span>
     </div>
     </a>
@@ -12,17 +12,16 @@
 
 <?php get_search_form(); ?>
 
-
-<section class="block-sections__section n1">
-    <div class="block-title">
-        <div class="block-midashi_background-image">
-            <h2 class="block-midashi mid-txt">
-                <span class="block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
+<section class="c-block-section n1">
+    <div class="c-block-title">
+        <div class="c-block-midashi_background-image">
+            <h2 class="c-block-midashi mid-txt">
+                <span class="c-block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
                 着物を高く買い取ってもらう秘訣は？
             </h2>
         </div>
     </div>
-    <div class="block-content">
+    <div class="c-block-content__white--border">
         <p>インターネットや電話申込だけで、自宅まで来て査定してくれる出張買取がおすすめです！<br><br>
 
             質屋やリサイクル店など、買取場所は沢山ありますが、着物の価値が分からない業者に依頼すると、安く買い叩かれてしまうため、専門業者に依頼しないと大損する可能性が高くなります。<br><br>
@@ -31,16 +30,16 @@
             
             ちなみに、今回1位で紹介する業者では、「リユース着物の目利き」がしっかり査定。査定スタッフのスキルが高く正確に着物の価値を判断しています。 実際こんな高額買取事例が！
         </p>
-        <div class="content-image">
+        <div class="c-content-image">
             <img src="https://買取王国.com/wp-content/uploads/2023/04/rankimg-gold.png" alt="">
         </div>
     </div>
 </section>
-<section class="block-sections__section n2">
-    <div class="block-title" id="1">
-        <div class="block-midashi_background-image">
-            <h2 class="block-midashi mid-txt">
-                <span class="block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
+<section class="c-block-section n2">
+    <div class="c-block-title" id="1">
+        <div class="c-block-midashi_background-image">
+            <h2 class="c-block-midashi mid-txt">
+                <span class="c-block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
                 高額買取の着物専門業者3選
             </h2>
         </div>
@@ -105,9 +104,9 @@
                     <td class="first-cell fixed01"><div class="c-hikaku-image__wrapper--first"><?php hikaku_rank_img($ranking);?></div></td>
                     <td class="fixed01"><div class="c-hikaku-image__wrapper"><img class="logo-image" src="<?php echo $store_logo; ?>" alt=""></div><div class="c-block-table__link"><a href="<?php echo $store_link;?>" class="small-txt"><?php echo $store_name;?></a></div></td>
                     <td>
-                        <div class="kigou-text__wrapper">
-                        <div class="maru-image__wrapper"><img src="<?php echo $jisseki_kigou;?>" alt=""></div>
-                        <p class="small-txt bold"><?php echo $jisseki_text; ?></p>
+                        <div class="c-kigou-text__wrapper">
+                        <div class="c-maru-image"><img src="<?php echo $jisseki_kigou;?>" alt=""></div>
+                        <p class="small-txt--bold"><?php echo $jisseki_text; ?></p>
                         </div>
                     </td>
                     <td>
@@ -116,65 +115,65 @@
                         <div class="campaign__red-text_wrapper"><p class="c-red small-txt"><?php echo $campaign_red_text ;?></p></div>
                     </td>
                     <td>
-                        <div class="kigou-text__wrapper">
-                            <div class="maru-image__wrapper">
+                        <div class="c-kigou-text__wrapper">
+                            <div class="c-maru-image">
                                 <img src="<?php echo $senmonsei_kigou;?>" alt="">
                             </div>
-                            <p class="small-txt bold"><?php echo $senmonsei_text; ?></p>
+                            <p class="small-txt--bold"><?php echo $senmonsei_text; ?></p>
                         </div>
                     </td>
                     <td>
-                        <div class="kigou-text__wrapper">
-                            <div class="maru-image__wrapper">
+                        <div class="c-kigou-text__wrapper">
+                            <div class="c-maru-image">
                                 <img src="<?php echo $kaitoritenpo_kigou;?>" alt="">
                             </div>
-                            <p class="small-txt bold"><?php echo $kaitoritenpo_text; ?></p>
+                            <p class="small-txt--bold"><?php echo $kaitoritenpo_text; ?></p>
                         </div>
                     </td>
                     <td>
-                        <div class="kigou-text__wrapper">
-                            <div class="maru-image__wrapper">
+                        <div class="c-kigou-text__wrapper">
+                            <div class="c-maru-image">
                                 <img src="<?php echo $shinsain_kigou;?>" alt="">
                             </div>
-                            <p class="small-txt bold"><?php echo $shinsain_text; ?></p>
+                            <p class="small-txt--bold"><?php echo $shinsain_text; ?></p>
                         </div>
                     </td>
                     <td>
-                        <div class="kigou-text__wrapper">
-                            <div class="maru-image__wrapper">
+                        <div class="c-kigou-text__wrapper">
+                            <div class="c-maru-image">
                                 <img src="<?php echo $zenkokitaiou_kigou;?>" alt="">
                             </div>
-                            <p class="small-txt bold"><?php echo $zenkokitaiou_text; ?></p>
+                            <p class="small-txt--bold"><?php echo $zenkokitaiou_text; ?></p>
                         </div>
                     </td>
                     <td>
-                        <div class="kigou-text__wrapper">
-                            <div class="maru-image__wrapper">
+                        <div class="c-kigou-text__wrapper">
+                            <div class="c-maru-image">
                                 <img src="<?php echo $genkinsokubarai_kigou;?>" alt="">
                             </div>
-                            <p class="small-txt bold"><?php echo $genkinsokubarai_text; ?></p>
+                            <p class="small-txt--bold"><?php echo $genkinsokubarai_text; ?></p>
                         </div>
                     </td>
                     <td>
-                        <div class="kigou-text__wrapper">
-                            <div class="maru-image__wrapper">
+                        <div class="c-kigou-text__wrapper">
+                            <div class="c-maru-image">
                                 <img src="<?php echo $kuchikomi_kigou;?>" alt="">
                             </div>
-                            <p class="small-txt bold"><?php echo $kuchikomi_text; ?></p>
+                            <p class="small-txt--bold"><?php echo $kuchikomi_text; ?></p>
                         </div>
                     </td>
                     <td>
-                        <div class="kigou-text__wrapper">
-                            <div class="maru-image__wrapper">
+                        <div class="c-kigou-text__wrapper">
+                            <div class="c-maru-image">
                                 <img src="<?php echo $hikaku_point_kigou;?>" alt="">
                             </div>
-                            <p class="small-txt bold"><?php echo $hikaku_point_text; ?></p>
+                            <p class="small-txt--bold"><?php echo $hikaku_point_text; ?></p>
                         </div>
                     </td>
                     <td>
-                    <div class="c-koushiki-site__btn_wrapper">
+                    <div class="c-block-button">
                     <a href="<?php echo $product_link ;?>">
-                        <div class="c-koushiki-site__btn_block">
+                        <div class="c-block-button__item--width100">
                             <h2 class="small-txt">公式サイトはこちら</h2>
                         </div>
                     </a>
@@ -188,25 +187,25 @@
         </table>
     </div>
 </section>
-<section class="block-sections__section n3">
-    <div class="block-title">
-        <div class="block-midashi_background-image">
-            <h2 class="block-midashi mid-txt">
-                <span class="block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
+<section class="c-block-section n3">
+    <div class="c-block-title">
+        <div class="c-block-midashi_background-image">
+            <h2 class="c-block-midashi mid-txt">
+                <span class="c-block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
                 なぜ出張サービスをおすすめするのか
             </h2>
         </div>
     </div>
-    <div class="block-content">
+    <div class="c-block-content__white--border">
         <p>
         出張買取サービス以外にも着物を売る方法はたくさんありますが、当サイトの調査結果では、数ある買取業者の中には悪質な業者が存在します。 <br><br>質屋やリサイクル店、ネットオークションでは相場より相当安い値段でしか着物を売ることができないようです。 <br><br>その理由を以下で詳しく説明しますね。
         </p>
-        <h2 class="text-subtitle mid-txt2">複数の着物をまとめた金額でしか買い取ってくれない</h2>
+        <h2 class="c-text-subtitle mid-txt2">複数の着物をまとめた金額でしか買い取ってくれない</h2>
         <p>ひとつひとつの着物を丁寧に査定をせずに金額を提示するため、本当なら価値あるはずの着物をやすく買い叩かれてしまいます。
             <br><br>
             当サイトが調査したところ「数着の着物を売ったのに、実際の査定は相場の半分以下の金額だった」などの口コミをたくさんみかけました。</p>
-            <div class="content-image_n02"><img src="https://買取王国.com/wp-content/uploads/2021/03/sozai01-300x218.jpg" alt=""></div>
-            <h2 class="text-subtitle mid-txt2">オンライン査定した金額と実際の査定金額がまったく違う</h2>
+            <div class="c-content-image__n02"><img src="https://買取王国.com/wp-content/uploads/2021/03/sozai01-300x218.jpg" alt=""></div>
+            <h2 class="c-text-subtitle mid-txt2">オンライン査定した金額と実際の査定金額がまったく違う</h2>
             <p>「郵送で送るだけで手軽に買取可能！」とうたっている業者に多いのですが、<br><br>
 
             最初のオンライン査定では納得のいく金額だったはずなのに、何かと理由を付けて安い買取金額を提示する業者があります。<br><br>
@@ -215,9 +214,9 @@
 
             「送料と手数料がかかるくらいなら安くても売るしかない…」と思わせる事により安い金額で着物を買取する悪質な方法をとる業者がたくさんあります。
             </p>
-            <div class="content-image_n02"><img src="https://買取王国.com/wp-content/uploads/2021/04/sozai02.jpg" alt=""></div>
+            <div class="c-content-image__n02"><img src="https://買取王国.com/wp-content/uploads/2021/04/sozai02.jpg" alt=""></div>
             <p>・着物の価値を理解していないリサイクル店、質屋を利用する そもそも着物の価値を理解していないので相場よりもはるかに安い料金を提示されてしまう事がほとんど。</p>
-            <h2 class="text-subtitle mid-txt2">オークションサイトで販売する</h2>
+            <h2 class="c-text-subtitle mid-txt2">オークションサイトで販売する</h2>
             <p>オークションサイトにはあなたが売りたい着物の他にも、たくさんの着物が出品されているため思うように売る事ができません。。<br><br>
 
             オークションが終了するまでにたくさんの問い合わせに答えたり、オークション終了後の料金の支払いや郵送の手間などを考えるととてもではありませんが、<br><br>
@@ -237,25 +236,25 @@
             </p>
     </div>
 </section>
-<section class="block-sections__section n4">
-    <span class="block-five-point"><img src="https://買取王国.com/wp-content/themes/kaitori/img/section05_title.png" alt=""></span>
+<section class="c-block-section__n4">
+    <span class="c-block-section__n4--point-image"><img src="https://買取王国.com/wp-content/themes/kaitori/img/section05_title.png" alt=""></span>
     <span>&nbsp;</span>
-    <div class="block-content">
-    <h2 class="text-subtitle mid-txt2">着物専門の買取業社ではないため納得のいく価格を提示してもらえない</h2>
+    <div class="c-block-content__white--border">
+    <h2 class="c-text-subtitle mid-txt2">着物専門の買取業社ではないため納得のいく価格を提示してもらえない</h2>
     <p>リサイクル店、質屋、ネットオークションでは着物の知識がない人が値段を決めるため、あなたが納得できる価格を提示してもらえません。<br><br>
 
         専門知識を持たない人が出張買取に来る業者は絶対に選ぶべきではありません。<br><br>
 
         <a href="">⇒専門知識がある査定員が着物の査定を行ってくれる業者を選ぶ</a><br><br>
     </p>
-    <h2 class="text-subtitle mid-txt2">出張買取サービスに出張料金や買取手数料を取られる</h2>
+    <h2 class="c-text-subtitle mid-txt2">出張買取サービスに出張料金や買取手数料を取られる</h2>
     <p>
     探せば出張のための交通費や手数料など一切不要、完全無料で出張買取をしてくれる業者を探さなければいけない<br><br>
 
 
         <a href="">⇒出張料金や手数料が無料の業者を探す</a><br><br>
     </p>
-    <h2 class="text-subtitle mid-txt2">まとまった数の着物がなければ出張に来てもらえない</h2>
+    <h2 class="c-text-subtitle mid-txt2">まとまった数の着物がなければ出張に来てもらえない</h2>
     <p>着物をまとめて売らなければ出張査定に来てもらえない業者がたくさんあります。<br><br>
 
         しかも着物をひとつひとつ丁寧に査定するのではなく、「全部まとめていくらです」と納得のいかない価格でしか買い取ってもらえない事も…。<br><br>
@@ -264,7 +263,7 @@
     <br><br>
         <a href="">⇒着物1枚からでも出張買取をしてくれる業者を探す</a><br><br>
     </p>
-    <h2 class="text-subtitle mid-txt2">証紙がない着物、少しでもシミや汚れ、色あせている着物は買い取ってもらえない</h2>
+    <h2 class="c-text-subtitle mid-txt2">証紙がない着物、少しでもシミや汚れ、色あせている着物は買い取ってもらえない</h2>
     <p>通常の買取業者では、証紙がない着物には値段が付けづらいため買取を拒否されることがほとんど。
 
     <br><br>着物の修復が必要になってしまうため、少しでもシミや汚れ、色あせているなど、ボロボロになった着物は買い取ってもらえません。
@@ -275,7 +274,7 @@
     <br><br>
         <a href="">⇒汚れていてボロくなってしまった着物でも買取してくれる業者を探す</a><br><br>
     </p>
-    <h2 class="text-subtitle mid-txt2">着物を売った後、クーリングオフ（全額返金）に対応しているか</h2>
+    <h2 class="c-text-subtitle mid-txt2">着物を売った後、クーリングオフ（全額返金）に対応しているか</h2>
     <p>着物を売ってから8日間であればどんな理由でも、返金をすれば着物を返してもらうことができます。<br><br>
 
         悪質な業者はあの手この手でクーリングオフを拒否しようとしますので要注意。<br><br>
@@ -284,12 +283,10 @@
     <br><br>
         <a href="">⇒誠意を持ってクーリングオフに対応してもらえる業者を探す</a>
     </p>
-    <div class="block-content__quote">
-        <p>※特定商取引法（第58条の14）クーリング・オフ制度とは 訪問購入に係る売買契約の申し込みや締結が行われた場合であっても、 法定書面を受領した日から起算して８日以内であれば、当該売主たる消費者（申込者等）は書面により申込みの撤回や契約の解除ができるという制度です。</p>
+    <div class="c-block-content__quote">
+        <p>※特定商取引法（第58条の14）<br>クーリング・オフ制度とは 訪問購入に係る売買契約の申し込みや締結が行われた場合であっても、 法定書面を受領した日から起算して８日以内であれば、当該売主たる消費者（申込者等）は書面により申込みの撤回や契約の解除ができるという制度です。</p>
     </div>
-    </div>
-    <span>&nbsp;</span>
-    <div class="block-content">
+
     <p>５つのポイントをもとにして着物の買取業者を探せば、あなたが納得できる価格で着物を買い取ってもらえます。<br><br>
 
     ただ星の数ほどある着物買取業者の中から、あなたが満足する業者を見つけるにはたくさんの時間がかかりますし、<br><br>
@@ -300,25 +297,26 @@
 
     アンケートによって全ての項目を満たした業者の中から満足度の高かった着物買取業者を選定。
     </p>
-    <div class="block-content__quote">
+    <div class="c-block-content__quote">
     <ul>
-        <li>出張料金は一切かからない</li>
-        <li>着物の専門知識を持ったプロが査定</li>
-        <li>他社では断られてしまうボロボロになった古い着物でも買取可能</li>
-        <li>その場で現金を受け取れる</li>
-        <li>しっかりとクーリングオフに対応してもらえる</li>
+        <li><p>出張料金は一切かからない</p></li>
+        <li><p>着物の専門知識を持ったプロが査定</p></li>
+        <li><p>他社では断られてしまうボロボロになった古い着物でも買取可能</p></li>
+        <li><p>その場で現金を受け取れる</p></li>
+        <li><p>しっかりとクーリングオフに対応してもらえる</p></li>
     </ul>
     </div>
     <p>その業者の中から上記を満たした上でもっとも満足度の高かった着物買取業者を3社紹介します。</p>
     </div>
     <br><br><br>
-    <div class="block-arrow scroll_up">
-        <div class="block-arrow__item">
+    <div class="c-block-arrow scroll_up">
+        <div class="c-block-arrow__item">
             <img src="https://買取王国.com/wp-content/themes/kaitori/img/arrow.png" alt="">
         </div>
     </div>
 </section>
-<section class="block-sections__section n5">
+<section class="c-block-section n5">
+<div class="block-ranking">
 <?php
     //$argsのプロパティを変えていく
     $args = array(
@@ -350,8 +348,9 @@
             $ranking_description = get_field('ranking_description');
             $ranking_image_frame = get_field('ranking_image_frame');
             $ranking_kaitori_image = get_field('ranking_kaitori_image');
+            $product_link = get_field('product_link');
     ?>
-    <div class="ranking-yellow__background">
+
         <div class="block-ranking__content">
             <div class="ranking-header"><?php ranking_rank_img($ranking);?><h2 class="mid-txt"><?php echo $store_name;?></h2></div>
             <div class="ranking-content__wrapper">
@@ -371,8 +370,8 @@
                     </div>
                 </div>
                 <?php if(get_post_meta($post->ID,'ranking',true) == 1):?>
-                <div class="ranking-title__wrapper">
-                    <div class="red-title__block">
+                <div class="ranking-title">
+                    <div class="ranking-title__block--red">
                         <h2><?php echo $store_name;?>のここがすごい！</h2>
                     </div>
                 </div>
@@ -393,9 +392,9 @@
                                 <th><p class="mid-txt">出張買取の対応</p></th>
                             </tr>
                             <tr>
-                                <td><div class="maru-image__wrapper"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
-                                <td><div class="maru-image__wrapper"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
-                                <td><div class="maru-image__wrapper"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
+                                <td><div class="c-maru-image"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
+                                <td><div class="c-maru-image"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
+                                <td><div class="c-maru-image"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
                             </tr>
                             <tr>
                                 <th><p class="mid-txt">対応エリア</p></th>
@@ -403,9 +402,9 @@
                                 <th><p class="mid-txt">事前の電話相談</p></th>
                             </tr>
                             <tr>
-                                <td><div class="maru-image__wrapper"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
-                                <td><div class="maru-image__wrapper"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
-                                <td><div class="maru-image__wrapper"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
+                                <td><div class="c-maru-image"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
+                                <td><div class="c-maru-image"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
+                                <td><div class="c-maru-image"><img src="https://買取王国.com/wp-content/themes/kaitori/img/maru001.png" alt=""></div></td>
                             </tr>
                         </tbody>
                     </table>
@@ -416,43 +415,46 @@
                         <?php echo $ranking_description;?>
                     </p>
                 </div>
-                <div class="ranking-title__wrapper">
-                    <div class="red-title__block">
+                <div class="ranking-title">
+                    <div class="ranking-title__block--red">
                         <h2>このような状態でも買取OK!</h2>
                     </div>
                 </div>
                 <?php endif; ?>
-                <div class="content-image">
+                <div class="c-content-image">
                     <img src="<?php echo $ranking_kaitori_image ;?>" alt="">
                 </div>
-                <div class="c-koushiki-site__btn_wrapper">
-                    <div class="c-koushiki-site__btn_block">
-                        <h2 class="mid-txt"><a href=""></a>公式サイトはこちら</h2>
-                    </div>
+                <div class="c-block-button">
+                    <a href="<?php echo $product_link ;?>">
+                        <div class="c-block-button__item">
+                            <h2 class="small-txt">公式サイトはこちら</h2>
+                        </div>
+                    </a>
                 </div>
-                <div class="ranking-review__link_wrapper">
-                    <div class="ranking-review__link_block">
+                <div class="ranking-review">
+                    <div class="ranking-review__link">
                         <a class="small-txt" href=""><?php echo $store_name;?>のレビュー＆口コミは＞＞</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    
     <?php endwhile;
             endif;
             wp_reset_postdata(); ?>
+    </div>
 </section>
-<section class="block-sections__section n6">
-<div class="block-title">
-    <div class="block-midashi_background-image">
-        <h2 class="block-midashi mid-txt">
-            <span class="block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
+<section class="c-block-section n6">
+<div class="c-block-title">
+    <div class="c-block-midashi_background-image">
+        <h2 class="c-block-midashi mid-txt">
+            <span class="c-block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
             最安値で着物を高く売る秘訣
         </h2>
     </div>
 </div>
-<div class="block-content">
-<h2 class="text-subtitle mid-txt2">着物買取サイトを複数(3社)問い合わせすること!</h2>
+<div class="c-block-content__white--border">
+<h2 class="c-text-subtitle mid-txt2">着物買取サイトを複数(3社)問い合わせすること!</h2>
 <p>実は、最高値で着物を売却した方に共通しているのが、複数の着物買取サイトへ問い合わせしています。<br><br>
 
 当サイトでは、高額で着物を買取る業者を厳選して紹介しておりますが、業者によって査定価格や特色が分かれるのも事実です。<br><br>
@@ -463,7 +465,7 @@
 
 おすすめの組み合わせは、ザ・ゴールド＋福ちゃん+バイセルの3社同時問い合わせです。<br><br>
 </p>
-<div class="content-image"><img src="https://買取王国.com/wp-content/themes/kaitori/img/ill__03.jpg" alt=""></div>
+<div class="c-content-image"><img src="https://買取王国.com/wp-content/themes/kaitori/img/ill__03.jpg" alt=""></div>
 <p>
 同時期に問い合わせすることで同じ状態の着物に対して査定担当者の力量や価格を比較しやすいため、今のうちに3社全てに問い合わせしておきましょう。<br><br>
 
@@ -471,17 +473,17 @@
 </p>
 </div>
 </section>
-
-<section class="block-sections__section n7">
-<div class="block-title">
-    <div class="block-midashi_background-image">
-        <h2 class="block-midashi mid-txt">
-            <span class="block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
+<section class="c-block-section n7">
+<div class="c-block-title">
+    <div class="c-block-midashi_background-image">
+        <h2 class="c-block-midashi mid-txt">
+            <span class="c-block-title__icon"><img src="<?php bloginfo('template_url'); ?>/image/h1before 1.png" alt=""></span>
             当サイトが厳選した買取業者ベスト３
         </h2>
     </div>
 </div>
-    <div class="block-mini-table">
+<div class="c-block-content__mini-table">
+    <div class="c-mini-table">
         <table>
             <?php
                 //$argsのプロパティを変えていく
@@ -511,8 +513,8 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="block-mini-table__company">
-                                <div class="mini-table__company-image_wrapper">
+                            <div class="c-mini-table__company">
+                                <div class="c-mini-table__company--image">
                                     <img src="<?php echo $ranking_image_frame; ?>" alt="">
                                 </div>
                             </div>
@@ -520,23 +522,25 @@
                     </tr>
                     <tr>
                         <td>
-                            <a class="small-txt" href=""><?php echo $store_name;?></a>
+                            <a class="mid-txt" href=""><?php echo $store_name;?></a>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <p class="small-txt mini-table_detail">
+                            <p class="c-mini-table__detail mid-txt ">
                                 <?php echo $mini_table_detail; ?>
                             </p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <div class="c-koushiki-site__btn_wrapper">
-                                <div class="c-koushiki-site__btn_block">
-                                    <h2 class="mid-txt"><a href=""></a>公式サイトへ</h2>
+                        <div class="c-block-button">
+                            <a href="<?php echo $product_link ;?>">
+                                <div class="c-block-button__item--width100">
+                                    <h2 class="small-txt">公式サイトはこちら</h2>
                                 </div>
-                            </div>
+                            </a>
+                        </div>
                         </td>
                     </tr>
                 </tbody>
@@ -545,15 +549,16 @@
                         wp_reset_postdata(); ?>
         </table>
     </div>
+</div>
 
 </section>
-<section class="block-sections__section n8">
-<div class="yellow-midashi_wrapper">
-    <h2 class="yellow-midashi mid-txt">
-        <span class="search-icon"><img src="<?php bloginfo('template_url'); ?>/image/search.png" alt=""></span>地域ごとに買取店をチェック！
+<section class="c-block-section n8">
+<div class="c-yellow-midashi">
+    <h2 class="c-yellow-midashi__item mid-txt">
+        <span class="p-search-icon"><img src="<?php bloginfo('template_url'); ?>/image/search.png" alt=""></span>地域ごとに買取店をチェック！
     </h2>
 </div>
-<div class="block-content">
+<div class="c-block-content__white--border">
 <picture>
 
     <!-- Image Map Generated by http://www.image-map.net/ -->
@@ -573,10 +578,5 @@
 </picture>
 </div>
 </section>
-<!-- <div class="yajirushi--img__wrapper"></div> -->
-<!-- <section class="block-sections__section n8"></section>
-<section class="block-sections__section n9"></section>
-<section class="block-sections__section n10"></section>
-<section class="block-sections__section n11"></section> -->
 
 <?php get_footer(); ?>

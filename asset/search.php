@@ -78,7 +78,7 @@ $get_num = $the_query->post_count;
 <?php get_header(); ?>
 <div style="height:2px;"></div>
 <?php get_search_form(); ?>
-<div class="content__white_wrapper">
+<div class="p-block-content">
   <div class="p-search_wrapper">
   <p><span>検索結果</span><span class="c-result__text"><?php echo $get_num; ?>件</span></p>
     <section>
