@@ -1,6 +1,6 @@
 @import '../../Foundation/_mixin.scss';
 
-.block-ranking {
+.c-ranking {
     width: 100%;
     background-color: #f5f5dc;
     padding: 1.5rem 0;
@@ -12,110 +12,99 @@
         border-radius: 0px 0px 0px 40px;
         width: 95%;
         margin: 0 auto;
-    }
-}
-.ranking-header {
-    background-color: #4d4d4d;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: row;
-    img {
-        height: 4vh;
-        margin-right: 10px;
-        margin-top: 3px;
-    }
-    h2 {
-        margin-top: 5px;
-    }
-}
-.ranking-flex__wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.ranking-content__wrapper {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.ranking-image__frame {
-    display: flex;
-    img {
-        width: 80%;
-        margin: 0 auto;
-        @include mobile{
-            width: 100%;
+        &--flex {
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+            margin: 0 auto;
+            gap: 10px;
         }
     }
-}
-.ranking-point__frame {
-    border: #d04c67 2px solid;
-    .ranking-point__header {
-        background-color: #d04c67;
+    &__inner {
+        width: 100%;
+        background-color: #f5f5dc;
+        padding: 20px;
+        border-radius: 0px 40px 0px 40px;
+    }
+    &__header {
+        background-color: #4d4d4d;
         padding: 10px 20px;
         display: flex;
-        justify-content: center;
-    }
-    ul {
-        padding: 10px;
-        li {
-            margin-left: 25px;
-            text-indent: -1.45em;
-        }
-        li::before {
-            content: "✔";
-            color: #d04c67;
+        flex-direction: row;
+        img {
+            height: 4vh;
             margin-right: 10px;
+            margin-top: 3px;
+        }
+        h2 {
+            margin-top: 5px;
         }
     }
-}
-.ranking-title {
-    display: flex;
-    justify-content: center;
-}
-.ranking-title__block{
-    &--red{
-        h2{
-            color: #d04c67;
-            font-weight: bold;
+    &__image {
+        display: flex;
+        img {
+            width: 80%;
+            margin: 0 auto;
+            @include mobile{
+                width: 100%;
+            }
         }
     }
-}
-.ranking-table__wrapper {
-    display: flex;
-    justify-content: center;
-    table tr th {
+    &__table {
+        display: flex;
+        justify-content: center;
+        table tr th {
+            background-color: #f1eeee;
+            border: #ffffff solid 1px;
+            padding: 5px 10px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+    &__point {
+        border: #d04c67 2px solid;
+        &-header {
+            background-color: #d04c67;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        ul {
+            padding: 10px;
+            li {
+                margin-left: 25px;
+                text-indent: -1.45em;
+            }
+            li::before {
+                content: "✔";
+                color: #d04c67;
+                margin-right: 10px;
+            }
+        }
+    }
+    &__title{
+        display: flex;
+        justify-content: center;
+        &--red{
+            h2{
+                color: #d04c67;
+                font-weight: bold;
+            }
+        }
+    }
+    &__description {
         background-color: #f1eeee;
-        border: #ffffff solid 1px;
-        padding: 5px 10px;
-        display: table-cell;
-        vertical-align: middle;
+        border-radius: 0px 0px 0px 0px;
+        border-top: #d04c67 2px solid;
+        padding: 20px;
     }
-}
-.ranking-description__wrapper {
-    background-color: #f1eeee;
-    border-radius: 0px 0px 0px 0px;
-    border-top: #d04c67 2px solid;
-    padding: 20px;
-}
-@keyframes shine {
-    100% {
-        left: 125%;
-    }
-}
-.block-ranking__inner {
-    width: 100%;
-    background-color: #f5f5dc;
-    padding: 20px;
-    border-radius: 0px 40px 0px 40px;
-}
-.ranking-review {
-    display: flex;
-    justify-content: right;
-    &__link{
-        a {
-            color: #668ad8;
+    &__review {
+        display: flex;
+        justify-content: right;
+        &-link{
+            a {
+                color: #668ad8;
+            }
         }
     }
 }

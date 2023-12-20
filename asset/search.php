@@ -83,33 +83,33 @@ $get_num = $the_query->post_count;
   <p><span>検索結果</span><span class="c-result__text"><?php echo $get_num; ?>件</span></p>
     <section>
       <?php if(!empty($senmon_f)):?>
-        <span>買取専門：<span class="c-red"><?php echo $senmon_f;?></span></span>
+        <span>買取専門：<span class="color-red"><?php echo $senmon_f;?></span></span>
       <?php else:?>
         <span>買取専門：---</span>
       <?php endif;?>
       <?php if(!empty($speed_f)):?>
         <?php if($speed_f == 1):?>
-        <span>買取までの速さ：<span class="c-red">★</span></span>
+        <span>買取までの速さ：<span class="color-red">★</span></span>
         <?php elseif($speed_f == 2):?>
-        <span>買取までの速さ：<span class="c-red">★★</span></span>
+        <span>買取までの速さ：<span class="color-red">★★</span></span>
         <?php elseif($speed_f == 3):?>
-        <span>買取までの速さ：<span class="c-red">★★★</span></span>
+        <span>買取までの速さ：<span class="color-red">★★★</span></span>
         <?php endif ;?>
       <?php else :?>
       <span>買取までの速さ：---</span>
       <?php endif;?>
       <?php if(!empty($syuttyou_f)):?>
-        <span>出張買取：<span class="c-red"><?php syuttyou_f($syuttyou_f) ;?></span></span>
+        <span>出張買取：<span class="color-red"><?php syuttyou_f($syuttyou_f) ;?></span></span>
         <?php else:?>
         <span>出張買取：---</span>
       <?php endif;?>
       <?php if(!empty($genkin_f)):?>
-        <span>現金受け取り：<span class="c-red"><?php echo $genkin_f;?></span></span>
+        <span>現金受け取り：<span class="color-red"><?php echo $genkin_f;?></span></span>
       <?php else:?>
         <span>現金受け取り：---</span>
       <?php endif;?>
       <?php if(!empty($denwa_f)):?>
-        <span>事前の電話相談：<span class="c-red"><?php echo $denwa_f ;?></span></span>
+        <span>事前の電話相談：<span class="color-red"><?php echo $denwa_f ;?></span></span>
       <?php else:?>
         <span>事前の電話相談：---</span>
       <?php endif;?>

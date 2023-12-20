@@ -95,7 +95,7 @@
         text-align: center;
     }
 }
-.c-content-image {
+.c-content__image {
     display: flex;
     img{
         width: 80%;
@@ -115,7 +115,7 @@
     }
 }
 
-.c-maru-image {
+.c-maru__image {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -124,14 +124,14 @@
     }
 }
 
-.c-text-subtitle {
+.c-subtitle {
     border-left: #cdcdcd 3px solid;
     padding-left: 5px;
     color: #4d4d4d;
     margin-top: 20px;
 }
 
-.c-block-arrow {
+.c-arrow {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -151,6 +151,12 @@
 //         opacity: 1;
 //     }
 // }
+// @keyframes shine {
+//         100% {
+//             left: 125%;
+//         }
+//     }
+
 .c-block-section{
     &__n4{
         &--point-image{

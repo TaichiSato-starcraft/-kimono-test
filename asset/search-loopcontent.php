@@ -29,9 +29,9 @@
           <tr>
             <td>
               <?php if($senmon_f == 'あり'):?>
-                <span class="c-red"><?php echo($senmon) ;?></span>
+                <span class="color-red"><?php echo($senmon) ;?></span>
               <?php elseif($senmon_f == 'なし'):?>
-                <span class="c-red"><?php echo($senmon) ;?></span>
+                <span class="color-red"><?php echo($senmon) ;?></span>
               <?php elseif($senmon_f == 0):?>
                 <span class=""><?php echo($senmon) ;?></span>
               <?php else:?>
@@ -39,13 +39,13 @@
             </td>
             <td>
               <?php if ($sort_key === 'speed_high' || $sort_key === 'speed_low'):?>
-                <span class="c-red"><?php star($speed) ;?></span>
+                <span class="color-red"><?php star($speed) ;?></span>
               <?php elseif($speed_f == 1):?>
-                <span class="c-red"><?php star($speed) ;?></span>
+                <span class="color-red"><?php star($speed) ;?></span>
               <?php elseif($speed_f == 2):?>
-                <span class="c-red"><?php star($speed) ;?></span>
+                <span class="color-red"><?php star($speed) ;?></span>
               <?php elseif($speed_f == 3):?>
-                <span class="c-red"><?php star($speed) ;?></span>
+                <span class="color-red"><?php star($speed) ;?></span>
               <?php elseif($speed_f == 0):?>
                 <span class=""><?php star($speed) ;?></span>
               <?php else:?>
@@ -53,11 +53,11 @@
             </td>
             <td>
               <?php if ($sort_key === 'syuttyou_high' || $sort_key === 'syuttyou_low'):?>
-                <span class="c-red"><?php syuttyou_f($syuttyou) ;?></span>
+                <span class="color-red"><?php syuttyou_f($syuttyou) ;?></span>
               <?php elseif($syuttyou_f == '1'):?>
-                <span class="c-red"><?php syuttyou_f($syuttyou) ;?></span>
+                <span class="color-red"><?php syuttyou_f($syuttyou) ;?></span>
               <?php elseif($syuttyou_f == '2'):?>
-                <span class="c-red"><?php syuttyou_f($syuttyou) ;?></span>
+                <span class="color-red"><?php syuttyou_f($syuttyou) ;?></span>
               <?php elseif($syuttyou_f == '0'):?>
                 <span class=""><?php syuttyou_f($syuttyou) ;?></span>
               <?php else:?>
@@ -66,9 +66,9 @@
             </td>
             <td>
               <?php if($genkin_f == 'あり'):?>
-                <span class="c-red"><?php echo($genkin) ;?></span>
+                <span class="color-red"><?php echo($genkin) ;?></span>
               <?php elseif($genkin_f == 'なし'):?>
-                <span class="c-red"><?php echo($genkin) ;?></span>
+                <span class="color-red"><?php echo($genkin) ;?></span>
               <?php elseif($genkin_f == 0):?>
                 <span class=""><?php echo($genkin) ;?></span>
               <?php else:?>
@@ -76,9 +76,9 @@
             </td>
             <td>
               <?php if($denwa_f == 'あり'):?>
-                <span class="c-red"><?php echo($denwa) ;?></span>
+                <span class="color-red"><?php echo($denwa) ;?></span>
               <?php elseif($denwa_f == 'なし'):?>
-                <span class="c-red"><?php echo($denwa) ;?></span>
+                <span class="color-red"><?php echo($denwa) ;?></span>
               <?php elseif($denwa_f == 0):?>
                 <span class=""><?php echo($denwa) ;?></span>
               <?php else:?>

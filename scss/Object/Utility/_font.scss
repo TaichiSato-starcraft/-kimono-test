@@ -24,31 +24,32 @@ h2 {
         }
     }
   }
-  
-  p.mid-txt {
+p{
+  &.mid-txt {
     font-size: 1rem;
     @include mobile{
-     font-size:0.8rem;
+      font-size:0.8rem;
     }
   }
-  p.small-txt{
-      font-size: 0.8rem;
-      &--bold{
-        @extend .small-txt;
-        font-weight: bold;
+  &.small-txt{
+    font-size: 0.8rem;
+    &--bold{
+      @extend .small-txt;
+      font-weight: bold;
+    }
+  }
+}
+a {
+  &.mid-txt {
+      font-size: 1.2rem;
+      @include mobile{
+        font-size: 1rem;
       }
   }
-  a {
-    &.mid-txt {
-        font-size: 1.2rem;
-        @include mobile{
-          font-size: 1rem;
-        }
-    }
-    &.small-txt {
-        font-size: 1.2rem;
-        @include mobile{
-          font-size: 0.85rem;
-        }
-    }
+  &.small-txt {
+      font-size: 1.2rem;
+      @include mobile{
+        font-size: 0.85rem;
+      }
   }
+}
