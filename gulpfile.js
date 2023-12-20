@@ -15,11 +15,13 @@ const distBase = 'asset';
 const srcPath = {
   'scss': 'scss/**/*.scss',
   'php': './*.php',
+  'php1': 'template-parts/**/*.php',
 };
 
 const distPath = {
   'css': distBase + '/css',
   'php': distBase,
+  'php1': distBase + '/template-parts',
 };
 
 /**

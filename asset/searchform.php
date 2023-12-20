@@ -1,6 +1,6 @@
-<section class="block-section n0">
-    <div class="yellow-midashi">
-        <h2 class="yellow-midashi__item mid-txt">
+<section class="c-block-section n0">
+    <div class="c-yellow-midashi">
+        <h2 class="c-yellow-midashi__item mid-txt">
             <span class="p-search-icon"><img src="<?php bloginfo('template_url'); ?>/image/search.png" alt=""></span>着物買取店検索
         </h2>
     </div>

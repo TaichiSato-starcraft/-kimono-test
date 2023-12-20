@@ -35,6 +35,3 @@
     <div class="l-article">
         <div class="l-header-cover"><a href="<?php echo esc_url(home_url('/')); ?>"><h2 class="mid-text">買取王国</h2></a></div>
         <main class="l-block-sections">
-        <header class="l-block-fv">
-            <img src="https://xn--tor46et59ao6w.com/wp-content/themes/kaitori/img/fv/kaitori-fv-new-sp-4.jpg"alt="">
-        </header>

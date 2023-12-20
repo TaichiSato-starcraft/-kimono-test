@@ -14,9 +14,19 @@
   },
   "dependencies": {
     "browser-sync": "^2.29.3",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-babel": "^8.0.0",
     "gulp-dart-sass": "^1.1.0",
     "gulp-notify": "^4.0.0",
     "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^5.0.0",
+    "path": "^0.12.7",
+    "sass": "^1.69.5",
+    "url": "^0.11.3",
     "vinyl-ftp": "^0.6.1"
   }
 }

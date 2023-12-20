@@ -1,7 +1,9 @@
 
 <?php get_header(); ?>
 
-
+<header class="l-block-fv">
+    <img src="https://xn--tor46et59ao6w.com/wp-content/themes/kaitori/img/fv/kaitori-fv-new-sp-4.jpg"alt="">
+</header>
 <div class="c-block-button">
 <a href="#1">
     <div class="c-block-button__item--flex-column">
