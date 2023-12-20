@@ -138,17 +138,17 @@ button {
   }
 }
 
-.l-block-header_image img {
+.l-block-fv img {
   width: 100%;
 }
 
-.l-header_cover {
+.l-header-cover {
   background-color: #D04C67;
   width: 100%;
   margin: 0 auto;
   display: flex;
 }
-.l-header_cover h2 {
+.l-header-cover h2 {
   width: fit-content;
   padding: 10px 25px;
   text-align: center;
