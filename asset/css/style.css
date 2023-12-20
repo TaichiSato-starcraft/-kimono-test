@@ -474,6 +474,9 @@ button {
   flex-direction: column;
   justify-content: flex-start;
 }
+.c-kigou-text__wrapper p br {
+  margin: 0;
+}
 
 .c-block-table__link {
   display: flex;
@@ -700,7 +703,7 @@ button {
   color: #4d4d4d;
   border: #bcbcbc 1px solid;
   border-radius: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 10px 15px;
   margin: 0 5px 5px 0;
 }
@@ -784,7 +787,7 @@ button {
   border-bottom: 4px solid;
   margin-bottom: 10px;
   width: 95%;
-  margin: 0 auto;
+  margin: 0 auto 1rem auto;
 }
 
 .p-search_table {
@@ -810,6 +813,14 @@ button {
 
 .color-red {
   color: #D04C67;
+}
+
+.mid-txt {
+  font-size: 1rem;
+}
+
+.small-txt, p.small-txt--bold {
+  font-size: 0.5rem;
 }
 
 h2.mid-txt {

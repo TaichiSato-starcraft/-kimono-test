@@ -13,14 +13,14 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <select name="senmon" class="pulldowndesign">
+                                    <select name="senmon" class="pulldowndesign mid-txt">
                                         <option value="0">着物専門</option>
                                         <option value="あり">あり</option>
                                         <option value="なし">なし</option>
                                     </select>
                                 </td>
                                 <td>
-                                    <select name="speed" class="pulldowndesign">
+                                    <select name="speed" class="pulldowndesign mid-txt">
                                         <option value="0">買取までの速さ</option>
                                         <option value="3">★★★</option>
                                         <option value="2">★★</option>
@@ -30,14 +30,14 @@
                             </tr>
                             <tr>
                                 <td>
-                                <select name="syuttyou" class="pulldowndesign">
+                                <select name="syuttyou" class="pulldowndesign mid-txt">
                                     <option value="0">出張買取</option>
                                     <option value="1">あり</option>
                                     <option value="2">なし</option>
                                 </select>
                                 </td>
                                 <td>
-                                <select name="genkin" class="pulldowndesign">
+                                <select name="genkin" class="pulldowndesign mid-txt">
                                     <option value="0">現金受取り</option>
                                     <option value="あり">あり</option>
                                     <option value="なし">なし</option>
@@ -46,7 +46,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                <select name="denwa" class="pulldowndesign">
+                                <select name="denwa" class="pulldowndesign mid-txt">
                                     <option value="0">事前の電話相談</option>
                                     <option value="あり">あり</option>
                                     <option value="なし">なし</option>
