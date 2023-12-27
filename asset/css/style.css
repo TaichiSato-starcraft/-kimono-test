@@ -150,7 +150,7 @@ button {
 }
 .l-header-cover h2 {
   width: fit-content;
-  padding: 10px 25px;
+  padding: 0.8rem 2rem;
   text-align: center;
 }
 
@@ -158,11 +158,13 @@ button {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-bottom: 1rem;
 }
 
 .c-block-button {
   margin: 0 auto;
   height: fit-content;
+  display: flex;
 }
 .c-block-button__icon {
   margin: 0 auto;
@@ -173,6 +175,7 @@ button {
   height: 10px;
 }
 .c-block-button__item, .c-block-button__item--width100 {
+  display: block;
   background-color: #D04C67;
   padding: 1rem 2.5rem;
   width: fit-content;
@@ -227,6 +230,100 @@ button {
   transform: translateY(-2px);
 }
 
+.c-column {
+  background-color: #fff;
+  border: #e5e5e5 solid 1px;
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem 2rem 1rem;
+}
+.c-column__subtitle {
+  border-left: #feaaaa 10px solid;
+  padding-left: 5px;
+  color: #4d4d4d;
+}
+.c-column__link {
+  color: #feaaaa;
+}
+
+.c-column-box {
+  padding: 0.5rem;
+}
+.c-column-box__item {
+  border-bottom: 1px solid #eee;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.c-column-box__item--title {
+  font-size: 1rem;
+}
+.c-column-box__item--text {
+  padding: 0.5rem 0;
+}
+.c-column-box__item--text p {
+  font-size: 0.75rem;
+}
+
+.c-column-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  margin: 1.5rem 0 0;
+}
+.pagination .page-numbers {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 0.75rem;
+  color: #4d4d4d;
+  border-radius: 3px;
+  box-shadow: 0 3px 3px #e5e5e5;
+  background: #fff;
+}
+.pagination .current {
+  background: #feaaaa;
+  color: #fff;
+}
+.pagination .prev, .pagination .next {
+  background: transparent;
+  box-shadow: none;
+  color: #feaaaa;
+}
+.pagination .dots {
+  background: transparent;
+  box-shadow: none;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.c-single {
+  margin: 1rem 0;
+}
+.c-single__title {
+  border-left: #feaaaa 10px solid;
+  margin: 1rem;
+  padding-left: 5px;
+  color: #4d4d4d;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.c-single__content h1 {
+  border-left: #feaaaa 10px solid;
+  padding-left: 5px;
+  color: #4d4d4d;
+}
+.c-single__content h2 {
+  border-left: #e5e5e5 3px solid;
+  padding-left: 5px;
+  color: #4d4d4d;
+  font-size: 1.2rem;
+}
 .c-block-content, .c-block-content__white, .c-block-content__white--border, .c-block-content__mini-table {
   width: 95%;
   margin: 0 auto;
@@ -834,7 +931,7 @@ h2.small-txt {
 }
 @media screen and (max-width: 768px) {
   h2.mid-txt {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   h2.mid-txt2 {
     font-size: 1rem;

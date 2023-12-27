@@ -3,6 +3,7 @@
 .c-block-button {
   margin: 0 auto;
   height: fit-content;
+  display: flex;
   &__icon {
     margin: 0 auto;
     margin-top: -7px;
@@ -12,6 +13,7 @@
     }
   }
   &__item {
+    display: block;
     background-color: #D04C67;
     padding: 1rem 2.5rem;
     width: fit-content;

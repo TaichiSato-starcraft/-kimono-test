@@ -1,0 +1,69 @@
+@import "../../Foundation/_mixin.scss";
+
+.c-column{
+    background-color: $white;
+    border: $light-gray solid 1px;
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1rem 2rem 1rem;
+    &__subtitle{
+        border-left: $light-pink 10px solid;
+        padding-left: 5px;
+        color: $light-black;
+    }
+    &__link{
+        color: $light-pink;
+    }
+}
+.c-column-box{
+    padding: 0.5rem;
+    &__item{
+        border-bottom: 1px solid #eee;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        &--title{
+            font-size: 1rem;
+        }
+        &--text{
+            padding: 0.5rem 0;
+            p{
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+.c-column-pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination{
+    margin:1.5rem 0 0;
+    .page-numbers{
+        display:inline-block;
+        margin-right:1rem;
+        padding: 0.5rem 0.75rem;
+        color:$light-black;
+        border-radius:3px;
+        box-shadow:0 3px 3px $light-gray;
+        background:$white;
+     }
+     .current{
+        background:$light-pink;
+        color:$white;
+     }
+     .prev,.next{
+        background:transparent;
+        box-shadow:none;
+        color:$light-pink;
+     }
+     .dots{
+        background:transparent;
+        box-shadow:none;
+     }
+ }
+ .nav-links{
+    display:flex;
+ }
